@@ -2,14 +2,21 @@
 
 
 A hospital in the province of Greenland has been trying to improve its care conditions by looking at historic survival of the patients. They tried looking at their data but could not identify the main factors leading to high survivals.
-Objective You are the best data scientist in Greenland and they've hired you to solve this problem. Now you are responsible for developing a model that will predict the chances of survival of a patient after 1 year of treatment (Survived_1_year).
-Evaluation Criteria Submissions are evaluated using the F1 Score. How do we do it?
+
+# Objective:
+You are the best data scientist in Greenland and they've hired you to solve this problem. Now you are responsible for developing a model that will predict the chances of survival of a patient after 1 year of treatment (Survived_1_year).
+# Evaluation Criteria :
+Submissions are evaluated using the F1 Score. How do we do it?
+
 Once you generate and submit the target variable predictions on evaluation dataset, your submissions will be compared with the true values of the target variable.
 The True or Actual values of the target variable are hidden on the DPhi Practice platform so that we can evaluate your model's performance on evaluation data. Finally, an F1 score for your model will be generated and displayed
-About the dataset The dataset contains the patient records collected from a hospital in Greenland. The "Survived_1_year" column is a target variable which has binary entries (0 or 1).
+
+# About the dataset:
+The dataset contains the patient records collected from a hospital in Greenland. The "Survived_1_year" column is a target variable which has binary entries (0 or 1).
 Survived_1_year == 0, implies that the patient did not survive after 1 year of treatment
 Survived_1_year == 1, implies that the patient survived after 1 year of treatment
-Data Description:
+
+# Data Description:
 1) ID_Patient_Care_Situation: Care situation of a patient during treatment
 2) Diagnosed_Condition: The diagnosed condition of the patient
 3) D_Patient: Patient identifier number
